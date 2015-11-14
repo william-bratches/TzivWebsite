@@ -28,15 +28,17 @@
     padding-top: 30px;
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
-.home-menu > a {
+.col-md-3 > a {
+  text-align: center;
   position: relative;
   text-decoration: none;
 }
 
 
-.home-menu > a:before {
+.col-md-3 > a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -51,8 +53,8 @@
   transition: all 0.3s ease-in-out 0s;  
 }
 
-.home-menu > a:hover:before {
+.col-md-3 > a:hover:before {
   visibility: visible;
-  -webkit-transform: scaleX(0.4);
-  transform: scaleX(0.4);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
