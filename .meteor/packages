@@ -18,7 +18,9 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 twbs:bootstrap
 fourseven:scss
-ryw:blog
 iron:router
 accounts-password
 accounts-ui
+alanning:roles
+less
+ryw:blog

@@ -1,3 +1,12 @@
 <template name="admin">
     {{> loginButtons}}
+
+    {{#if loggedIn}}
+    <div class="row">
+        <button class="btn btn-default" id="blog-admin">Blog Control</button>
+        <button class="btn btn-default">Upload new photos for gallery</button>
+        <button class="btn btn-default">Upload new essay</button>
+    </div>
+
+    {{/if}}
 </template>
