@@ -1,0 +1,31 @@
+@font-face {
+    font-family: BrainFlower;
+    src: url("BrainFlower.ttf");
+}
+
+@font-face {
+    font-family: BDToulouse;
+    src: url("BDToulouse.ttf");
+}
+
+.home-header {
+    font-family: BrainFlower;
+    text-align: center;
+    font-size: 84px;
+}
+
+.home-subheader {
+    text-align:center;
+    font-family: BDToulouse;
+    color: #5C5C5C;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.home-menu {
+    font-size: 200%;
+    padding-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
